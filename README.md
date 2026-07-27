@@ -121,3 +121,5 @@ Passionate about AI, Web Development, and building practical AI applications.
 
 ### 🧠 AI Flashcards
 ![Flashcards](screenshots/Flashcard.png)
+
+
