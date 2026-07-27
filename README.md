@@ -101,10 +101,13 @@ Passionate about AI, Web Development, and building practical AI applications.
 
 ## 📸 Project Screenshots
 
-- [🏠 Dashboard Overview](screenshots/Dashboard1.png)
-- [📊 Dashboard Statistics](screenshots/Dashboard2.png)
-- [📄 Upload Notes](screenshots/UploadNotes.png)
-- [🤖 AI Summary](screenshots/Summary.png)
-- [💬 AI Chat](screenshots/Chat.png)
-- [📝 AI Quiz Generator](screenshots/Quiz.png)
-- [🧠 AI Flashcards](screenshots/Flashcard.png)
+All project screenshots can be viewed here:
+
+📂 **screenshots/**
+- Dashboard1.png
+- Dashboard2.png
+- UploadNotes.png
+- Summary.png
+- Chat.png
+- Quiz.png
+- Flashcard.png
