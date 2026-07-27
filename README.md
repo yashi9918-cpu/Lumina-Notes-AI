@@ -101,23 +101,10 @@ Passionate about AI, Web Development, and building practical AI applications.
 
 ## 📸 Project Screenshots
 
-### 🏠 Dashboard Overview
-![Dashboard Overview](screenshots/Dashboard1.png)
-
-### 📊 Dashboard Statistics
-![Dashboard Statistics](screenshots/Dashboard2.png)
-
-### 📄 Upload PDF Notes
-![Upload Notes](screenshots/UploadNotes.png)
-
-### 🤖 AI Summary Generator
-![AI Summary](screenshots/Summary.png)
-
-### 💬 AI Chat
-![AI Chat](screenshots/Chat.png)
-
-### 📝 AI Quiz Generator
-![Quiz Generator](screenshots/Quiz.png)
-
-### 🧠 AI Flashcards
-![Flashcards](screenshots/Flashcard.png)
+- [🏠 Dashboard Overview](screenshots/Dashboard1.png)
+- [📊 Dashboard Statistics](screenshots/Dashboard2.png)
+- [📄 Upload Notes](screenshots/UploadNotes.png)
+- [🤖 AI Summary](screenshots/Summary.png)
+- [💬 AI Chat](screenshots/Chat.png)
+- [📝 AI Quiz Generator](screenshots/Quiz.png)
+- [🧠 AI Flashcards](screenshots/Flashcard.png)
