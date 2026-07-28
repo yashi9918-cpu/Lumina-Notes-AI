@@ -29,10 +29,7 @@ function Dashboard() {
   formData.append("pdf", file);
 
   try {
-    const response = await api.post(
-      "http://127.0.0.1:5000/upload",
-      formData
-    );
+    const response = await api.post("/upload", formData);
 
     setUploadedFileName(response.data.file);
     setDisplayFileName(file.name);
@@ -64,8 +61,7 @@ const handleSummary = async () => {
   setLoadingSummary(true);
 
   try {
-    const response = await api.post(
-      "http://127.0.0.1:5000/ai/summary",
+    const response = await api.post("/ai/summary",
       {
         filename: uploadedFileName,
       }
@@ -93,8 +89,7 @@ const handleChat = async () => {
   setLoadingChat(true);
 
   try {
-    const response = await api.post(
-      "http://127.0.0.1:5000/ai/chat",
+    const response = await api.post("/ai/chat",
       {
         filename: uploadedFileName,
         question,
@@ -117,8 +112,7 @@ const handleQuiz = async () => {
   setLoadingQuiz(true);
 
   try {
-    const response = await api.post(
-      "http://127.0.0.1:5000/ai/quiz",
+    const response = await api.post("/ai/quiz",
       {
         filename: uploadedFileName,
       }
@@ -141,8 +135,7 @@ const handleFlashcards = async () => {
   setLoadingFlashcards(true);
 
   try {
-    const response = await api.post(
-      "http://127.0.0.1:5000/ai/flashcards",
+    const response = await api.post("/ai/flashcards",
       {
         filename: uploadedFileName,
       }
