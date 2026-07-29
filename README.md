@@ -1,59 +1,107 @@
+<p align="center">
+  <img src="screenshots/banner.png" alt="Lumina Notes AI Banner" width="100%">
+</p>
+
+<p align="center">
+  <img src="screenshots/demo.gif" width="900">
+</p>
+
 # 📚 Lumina Notes AI
+
+<p align="center">
+
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
+![Vite](https://img.shields.io/badge/Vite-Frontend-purple?logo=vite)
+![Gemini AI](https://img.shields.io/badge/Google-Gemini_AI-orange?logo=google)
+![Render](https://img.shields.io/badge/Backend-Render-blue)
+![Vercel](https://img.shields.io/badge/Frontend-Vercel-black?logo=vercel)
+![GitHub last commit](https://img.shields.io/github/last-commit/yashi9918-cpu/Lumina-Notes-AI)
+![GitHub repo size](https://img.shields.io/github/repo-size/yashi9918-cpu/Lumina-Notes-AI)
+![GitHub stars](https://img.shields.io/github/stars/yashi9918-cpu/Lumina-Notes-AI?style=social)
+</p>
 
 An AI-powered study assistant that helps students learn smarter from their own notes.
 
 ---
 
-## 🚀 Features
+# 🌐 Live Demo
 
-- 📄 Upload PDF Notes
-- 🤖 AI Summary Generator
-- 💬 AI Chat with Notes
-- 📝 AI Quiz Generator
-- 🧠 AI Flashcards
-- 📥 Download Summary as PDF
+### 🚀 Try it Live
+
+**Live Demo:** https://lumina-notes-ai.vercel.app/dashboard
+
+### 🔗 Backend API
+
+**https://lumina-notes-ai-backend.onrender.com**
 
 ---
 
-## 🛠 Tech Stack
+# ✨ Features
 
-### Frontend
+- 📄 Upload PDF Notes
+- 🤖 AI Summary Generator
+- 💬 Chat with PDF Notes using AI
+- 📝 AI Quiz Generator
+- 🧠 AI Flashcards Generator
+- 📥 Download Summary as PDF
+- 📱 Responsive UI
+- ⚡ Fast React + Vite Frontend
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
 - React.js
 - Vite
 - Tailwind CSS
 - Axios
+- jsPDF
 
-### Backend
+## Backend
+
 - Node.js
 - Express.js
 - Multer
 - PDF-Parse
+- CORS
 
-### AI
+## AI
+
 - Google Gemini API
 
----
+## Deployment
 
-## 📂 Project Structure
-
-```
-StudyGenie/
-├── frontend/
-├── backend/
-└── uploads/
-```
+- Vercel (Frontend)
+- Render (Backend)
 
 ---
 
-## ⚙️ Installation
+# 📂 Project Structure
 
-### Clone the repository
+```text
+Lumina-Notes-AI
+│
+├── frontend
+│
+├── backend
+│
+└── screenshots
+```
+
+---
+
+# 🚀 Installation
+
+## Clone Repository
 
 ```bash
 git clone https://github.com/yashi9918-cpu/Lumina-Notes-AI.git
 ```
 
-### Backend
+## Backend
 
 ```bash
 cd backend
@@ -61,7 +109,7 @@ npm install
 npm start
 ```
 
-### Frontend
+## Frontend
 
 ```bash
 cd frontend
@@ -71,53 +119,80 @@ npm run dev
 
 ---
 
-## 🔑 Environment Variables
+# 🔑 Environment Variables
 
-Create a `.env` file inside the `backend` folder:
+Create a `.env` file inside the backend folder.
 
-```
+```env
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
 
 ---
 
-## 🌟 Future Improvements
+# 📸 Screenshots
 
-- Voice Assistant
-- User Authentication
-- Progress Tracking
-- AI Revision Planner
-- Cloud Storage
+## 🏠 Dashboard
+
+![Dashboard](screenshots/Dashboard1.png)
 
 ---
 
-## 👩‍💻 Developer
+## 📊 Dashboard Statistics
 
-**Siya Singh**
+![Dashboard Stats](screenshots/Dashboard2.png)
 
-CSE (AI & ML) Student
+---
 
-Passionate about AI, Web Development, and building practical AI applications.
+## 📄 Upload Notes
 
-## 📸 Project Screenshots
-
-### 🏠 Dashboard Overview
-![Dashboard Overview](screenshots/Dashboard1.png)
-
-### 📊 Dashboard Statistics
-![Dashboard Statistics](screenshots/Dashboard2.png)
-
-### 📄 Upload Notes
 ![Upload Notes](screenshots/UploadNotes.png)
 
-### 🤖 AI Summary
-![AI Summary](screenshots/Summary.png)
+---
 
-### 💬 AI Chat
-![AI Chat](screenshots/Chat.png)
+## 🤖 AI Summary
 
-### 📝 AI Quiz Generator
-![Quiz Generator](screenshots/Quiz.png)
+![Summary](screenshots/Summary.png)
 
-### 🧠 AI Flashcards
+---
+
+## 💬 AI Chat
+
+![Chat](screenshots/Chat.png)
+
+---
+
+## 📝 Quiz Generator
+
+![Quiz](screenshots/Quiz.png)
+
+---
+
+## 🧠 Flashcards
+
 ![Flashcards](screenshots/Flashcard.png)
+
+---
+
+# 🌟 Future Improvements
+
+- 🔐 User Authentication
+- 🎙 Voice Assistant
+- 📈 Study Progress Tracker
+- 🧠 AI Revision Planner
+- ☁ Cloud Storage
+
+---
+
+# 👩‍💻 Developer
+
+## Siya Singh
+
+**CSE (AI & ML) Student**
+
+Passionate about Artificial Intelligence, Web Development, and building practical AI applications.
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a **⭐ Star** on GitHub.
