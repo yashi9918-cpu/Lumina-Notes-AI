@@ -21,7 +21,7 @@ An AI-powered study assistant that helps students learn smarter from their own n
 
 ### 🚀 Try it Live
 
-**Live Demo:** https://lumina-notes-ai.vercel.app/dashboard
+**From here:** https://lumina-notes-ai.vercel.app/dashboard
 
 ### 🔗 Backend API
 
