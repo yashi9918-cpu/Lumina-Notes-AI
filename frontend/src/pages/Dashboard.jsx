@@ -29,10 +29,7 @@ function Dashboard() {
   formData.append("pdf", file);
 
   try {
-    const response = await api.post(
-      "http://127.0.0.1:5000/upload",
-      formData
-    );
+    const response = await api.post("/upload", formData);
 
     setUploadedFileName(response.data.file);
     setDisplayFileName(file.name);
@@ -64,12 +61,9 @@ const handleSummary = async () => {
   setLoadingSummary(true);
 
   try {
-    const response = await api.post(
-      "http://127.0.0.1:5000/ai/summary",
-      {
-        filename: uploadedFileName,
-      }
-    );
+    const response = await api.post("/ai/summary", {
+  filename: uploadedFileName,
+});
 
     setSummary(response.data.summary);
   } catch (error) {
@@ -93,13 +87,10 @@ const handleChat = async () => {
   setLoadingChat(true);
 
   try {
-    const response = await api.post(
-      "http://127.0.0.1:5000/ai/chat",
-      {
-        filename: uploadedFileName,
-        question,
-      }
-    );
+    const response = await api.post("/ai/chat", {
+  filename: uploadedFileName,
+  question,
+});
 
     setAnswer(response.data.answer);
   } catch (error) {
@@ -117,12 +108,9 @@ const handleQuiz = async () => {
   setLoadingQuiz(true);
 
   try {
-    const response = await api.post(
-      "http://127.0.0.1:5000/ai/quiz",
-      {
-        filename: uploadedFileName,
-      }
-    );
+    const response = await api.post("/ai/quiz", {
+  filename: uploadedFileName,
+});
 
     setQuiz(response.data.quiz);
   } catch (error) {
@@ -141,12 +129,9 @@ const handleFlashcards = async () => {
   setLoadingFlashcards(true);
 
   try {
-    const response = await api.post(
-      "http://127.0.0.1:5000/ai/flashcards",
-      {
-        filename: uploadedFileName,
-      }
-    );
+    const response = await api.post("/ai/flashcards", {
+  filename: uploadedFileName,
+});
 
     setFlashcards(response.data.flashcards);
   } catch (error) {
