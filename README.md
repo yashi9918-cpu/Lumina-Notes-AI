@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="screenshots/banner.png" alt="Lumina Notes AI Banner" width="100%">
-</p>
-
-<p align="center">
-  <img src="screenshots/demo.gif" width="900">
-</p>
-
 # 📚 Lumina Notes AI
 
 <p align="center">
